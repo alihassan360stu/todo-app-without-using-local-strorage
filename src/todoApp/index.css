@@ -1,0 +1,116 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  background-color: cornsilk;
+
+}
+
+.todoapp {
+  width: 40%;
+  height: 90vh;
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px gray;
+  margin-left: 30%;
+  margin-top: 5vh;
+  display: block;
+  overflow-y: scroll;
+  /* overflow: hidden; */
+}
+
+#upper {
+  width: 100%;
+  height: 25vh;
+  background-color: darkgray;
+  position: relative;
+}
+
+#h1 {
+  color: brown;
+  font-size: 3vw;
+  width: 94%;
+  text-align: center;
+  position: absolute;
+  top: 3vh;
+
+}
+
+#input {
+  background-color: white;
+  width: 70%;
+  height: 4vw;
+  padding: 5px 5px 5px 5px;
+  font-size: 1.5vw;
+  position: absolute;
+  top: 12vh;
+  left: 12.5%;
+}
+
+.button {
+  width: 10%;
+  height: 8vh;
+ color: white;
+  background-color: green;
+  border-radius: 15%;
+  position: absolute;
+  top: 12vh;
+  height: 8vh;
+  right: 5%;
+  font-size: 1.2vw;
+  display: none;
+}
+
+.button:hover {
+  box-shadow: 2px 2px 2px 1px black;
+  cursor: pointer;
+}
+
+#clear {
+  display: none;
+  width: 11%;
+  position: absolute;
+  right: 5%;
+  color: white;
+  background-color: darkred;
+}
+
+#clear:hover {
+  width: 11%;
+  position: absolute;
+}
+
+.data {
+  height: 8vh;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+  position: relative;
+  width: 70%;
+  left: 12.5%;
+  background-color: darkkhaki;
+}
+
+.data h1 {
+  position: absolute;
+  left: 20%;
+  top: 2vh;
+  text-transform: capitalize;
+}
+
+.fa {
+  position: absolute;
+  left: 5%;
+  top: 2.5vh;
+  font-size: 1.5vw;
+  color: red;
+}
+
+.fa:hover {
+  font-size: 1.8vw;
+  color: darkred;
+  position: absolute;
+  left: 4.5%;
+}
